@@ -1,0 +1,17 @@
+[project]
+name = "tsdt"
+version = "0.1.0"
+description = "A lightweight and fast utility for converting timestamps to datetime and back. Provides a simple CLI and a clean Python API for working with Unix time, ISO8601 strings, and human-readable formats."
+authors = [
+    {name = "Oleg Patsay",email = "smmartbiz@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
