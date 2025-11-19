@@ -11,6 +11,11 @@ requires-python = ">=3.13"
 dependencies = [
 ]
 
+[tool.poetry]
+packages = [{ include = "tsdt", from = "src" }]
+
+[tool.poetry.scripts]
+tsdt = "tsdt.main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
